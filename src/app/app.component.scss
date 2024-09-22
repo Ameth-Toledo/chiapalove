@@ -1,0 +1,66 @@
+.banner-container {
+    position: relative; 
+}
+
+app-header {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+app-banner {
+    margin-top: 100px; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.origen-history {
+    margin: 40px auto;
+    max-width: 1500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.origen-history-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    color: #333;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.history-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parrafo-history {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #666;
+}
+
+.history-image {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
