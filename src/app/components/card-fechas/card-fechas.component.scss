@@ -1,0 +1,27 @@
+.fechas-importantes {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+
+    .contenido {
+        display: flex;
+        align-items: center; // Centra verticalmente los elementos
+    }
+
+    .texto {
+        flex: 1; // Permite que el texto ocupe el espacio disponible
+        padding-right: 20px; // Espacio entre el texto y la imagen
+    }
+
+    .fecha-enero {
+        color: red; // Mantén el color de la letra
+    }
+
+    .evento-enero {
+        color: black; // O el color que prefieras
+    }
+
+    .imagen-chiapa {
+        max-width: 200px; // Ajusta el tamaño de la imagen según sea necesario
+        height: auto; // Mantiene la proporción de la imagen
+    }
+}
