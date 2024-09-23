@@ -1,27 +1,30 @@
 .fechas-importantes {
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+    padding: 80px;
+}
 
-    .contenido {
-        display: flex;
-        align-items: center; // Centra verticalmente los elementos
-    }
+.contenido {
+    display: flex;
+    align-items: center; 
+}
 
-    .texto {
-        flex: 1; // Permite que el texto ocupe el espacio disponible
-        padding-right: 20px; // Espacio entre el texto y la imagen
-    }
+.texto {
+    flex: 1; 
+    padding-right: 20px;
+}
 
-    .fecha-enero {
-        color: red; // Mantén el color de la letra
-    }
+.fecha-enero {
+    color: red; 
+    font-size: 45px;
+}
 
-    .evento-enero {
-        color: black; // O el color que prefieras
-    }
+.evento-enero {
+    color: black; 
+    font-size: 24px;
+}
 
-    .imagen-chiapa {
-        max-width: 200px; // Ajusta el tamaño de la imagen según sea necesario
-        height: auto; // Mantiene la proporción de la imagen
-    }
+.imagen-chiapa {
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
 }

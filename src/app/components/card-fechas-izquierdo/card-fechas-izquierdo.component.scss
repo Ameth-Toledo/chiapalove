@@ -1,0 +1,32 @@
+.fechas-importantes-izq {
+    font-family: 'Poppins', sans-serif;
+    padding: 80px;
+}
+
+.contenido-izq {
+    display: flex;
+    align-items: center; 
+    flex-direction: row; 
+}
+
+.texto-izq {
+    flex: 1;
+    padding-left: 20px; 
+}
+
+.fecha-enero-izq {
+    color: red; 
+    font-size: 45px;
+}
+
+.evento-enero-izq {
+    color: black; 
+    font-size: 24px;
+}
+
+.imagen-chiapa-izq {
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 20px; 
+}

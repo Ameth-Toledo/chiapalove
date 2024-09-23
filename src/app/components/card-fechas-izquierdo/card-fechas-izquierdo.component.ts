@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-fechas-izquierdo',
@@ -8,5 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './card-fechas-izquierdo.component.scss'
 })
 export class CardFechasIzquierdoComponent {
-
+  @Input() fechaizq : string = '';
+  @Input() eventoIzq : string = '';
+  @Input() descripcionIzq : string = '';
+  @Input() ImageSrcIzq : string = '';
 }

@@ -23,14 +23,16 @@
     margin: 0;
     padding: 0 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 54px;
 }
 
 .banner-text-h1 {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0 20px;
-    font-size: 3rem;
+    font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: yellow;
 }
 
 .banner-container::before {
