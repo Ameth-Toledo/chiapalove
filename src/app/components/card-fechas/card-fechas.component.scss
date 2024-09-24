@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .fechas-importantes {
     font-family: 'Poppins', sans-serif;
     padding: 80px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .contenido {
@@ -14,11 +17,14 @@
 }
 
 .fecha-enero {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     color: red; 
     font-size: 45px;
 }
 
 .evento-enero {
+    font-family: 'Poppins', sans-serif;
     color: black; 
     font-size: 24px;
 }

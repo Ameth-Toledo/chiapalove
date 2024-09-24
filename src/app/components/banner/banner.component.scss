@@ -20,19 +20,21 @@
 
 .banner-text-h2 {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 20px 0 0 0; /* Agrega margen superior para separar del texto anterior */
     padding: 0 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     font-size: 54px;
+    font-weight: bold;
 }
 
 .banner-text-h1 {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0 0 40px 0; 
     padding: 0 20px;
     font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     color: yellow;
+    font-weight: bold;
 }
 
 .banner-container::before {
