@@ -3,30 +3,69 @@
     <video src="/videos/LeyendaChiapaLove.mp4" autoplay muted class="video-leyenda"></video>
     <h1 class="declaracion-titulo">PATRIMONIO CULTURAL</h1>
 </div>
-<h1 class="declaracion-unesco">Declaracion por la UNESCO</h1>
-<p class="declaracion-parrafo">
-    La UNESCO declaró la fiesta de Parachicos en la tradicional fiesta de enero de Chiapa de Corzo como Patrimonio Cultural Inmaterial de la Humanidad el 16 de noviembre de 2010.  
-    Esta distinción reconoce el valor cultural, histórico y social de la festividad, particularmente la danza de los Parachicos, que es una tradición emblemática de la comunidad. 
-    La UNESCO destacó la importancia de esta celebración por su fusión de elementos indígenas y españoles, así como su rol en fortalecer la identidad y 
-    cohesión social de Chiapa de Corzo.
-</p>
-<div class="musica-tradicional">
-    <img src="images/carrizo.jpg" alt="musica-tradicional-ChiapaLove" class="img-musica-tradicional">
-    <div class="texto-musica-container">
-        <h1 class="titulo-musica">Música Tradicional</h1>
-        <p class="texto-musica">La música tradicional de tambor y carrizo es un elemento clave en la fiesta de Chiapa de Corzo, especialmente durante la danza de los Parachicos. El tambor, de madera y cuero, marca el ritmo, mientras el carrizo, una flauta de caña, crea melodías agudas. Esta música, de origen indígena, acompaña las procesiones y danzas, destacándose por sus ritmos repetitivos y melodías improvisadas. Es una expresión cultural que conecta a la comunidad con sus raíces y enriquece la atmósfera festiva y religiosa de la celebración.</p>
-    </div>
-</div>
 
-<div class="fiesta-grande-container">
-    <h2 class="fiesta-titulo">La Tradicional Fiesta Grande</h2>
-    <p class="fiesta-parrafo">
-        <strong>Instrumentos:</strong><br>
-        <strong>Tambor:</strong> Se trata de un tambor pequeño hecho de madera y cuero, cuyo sonido rítmico marca el compás de las danzas y procesiones.<br>
-        <strong>Carrizo:</strong> Es una especie de flauta hecha de caña o carrizo, que emite un sonido agudo y melodioso. Este instrumento acompaña al tambor, creando un contraste sonoro que es característico de la música indígena de Chiapas.
+<!--
+<section class="unesco-section">
+    <h1 class="declaracion-unesco">Declaración por la UNESCO</h1>
+    <p class="declaracion-parrafo">
+        La UNESCO declaró la fiesta de Parachicos en la tradicional fiesta de enero de Chiapa de Corzo como Patrimonio Cultural Inmaterial de la Humanidad el 16 de noviembre de 2010.  
+        Esta distinción reconoce el valor cultural, histórico y social de la festividad, particularmente la danza de los Parachicos, que es una tradición emblemática de la comunidad. 
+        La UNESCO destacó la importancia de esta celebración por su fusión de elementos indígenas y españoles, así como su rol en fortalecer la identidad y 
+        cohesión social de Chiapa de Corzo.
     </p>
-</div>
+</section>
+-->
 
-<h1>Los Parachicos, fiesta multicolor que preserva la tradición</h1>
+<section class="parachicos-section">
+    <h1 class="dato-parachico">Los Parachicos, fiesta multicolor que preserva la tradición</h1>
+    <p class="dato-parachico-parrafo">
+        Los Parachicos son una colorida y vibrante festividad tradicional que se celebra cada enero en Chiapa de Corzo, Chiapas, México. 
+        Esta fiesta multicolor, declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO, honra a los santos patronos del pueblo 
+        y a la Virgen de Guadalupe. Los participantes, conocidos como Parachicos, visten trajes elaborados con máscaras de madera tallada y sarapes, 
+        y bailan al son de marimbas y tambores mientras recorren las calles. La celebración mantiene vivas las raíces culturales de la región 
+        y es una muestra del profundo respeto por las tradiciones y la identidad chiapaneca.
+    </p>
+</section>
+
+<section class="cards-container">
+    <app-card-patrimonio
+        titulo="Mascara Tradicional"
+        srcImg="images/tradicional.webp"
+        descripcion="La mascara tradicional, es la mas usada y mas moderna durante la existencia del parachico. Es muy comun que la usen personas desde los 5 años hasta los 22 años.">
+    </app-card-patrimonio>
+
+    <app-card-patrimonio 
+        titulo="Mascara del Patron"
+        srcImg="images/el-patron-de-los-parachicos.webp"
+        descripcion="La mascara del patrón, tiene aproximadamente mas de 500 años desde la llegada de Maria Angulo en el siglo XVII, representa el rigor y liderazgo para dirijir a sus parachicos.">
+    </app-card-patrimonio>
+
+    <app-card-patrimonio
+        titulo="Mascara Antigua"
+        srcImg="images/antigua.png"
+        descripcion="La mascara antigua, se usa casualmente en personas de 35 a 70 años, representa una faccion española, con rasgos de sublideres de miembros de equipos españoles.">
+    </app-card-patrimonio>
+
+    <app-card-patrimonio
+        titulo="Mascara Barbada"
+        srcImg="images/barbada.jpeg"
+        descripcion="la mascara barbada, se usa de apartir de los 22 años, cualquier rasgo paracido a la del patrón la mascara sera destruida por los mismos habitantes con o sin la presencia del patrón.">
+    </app-card-patrimonio>
+</section>
+
+<section class="musica-tradicional-container">
+    <div class="musica-tradicional">
+        <img src="images/carrizo.jpg" alt="musica-tradicional-ChiapaLove" class="img-musica-tradicional">
+        <div class="texto-musica-container">
+            <h1 class="titulo-musica">Música Tradicional</h1>
+            <p class="texto-musica">
+                La música tradicional de tambor y carrizo es un elemento clave en la fiesta de Chiapa de Corzo, especialmente durante la danza de los Parachicos. 
+                El tambor, de madera y cuero, marca el ritmo, mientras el carrizo, una flauta de caña, crea melodías agudas. Esta música, de origen indígena, 
+                acompaña las procesiones y danzas, destacándose por sus ritmos repetitivos y melodías improvisadas. Es una expresión cultural que conecta a la comunidad con sus raíces 
+                y enriquece la atmósfera festiva y religiosa de la celebración.
+            </p>
+        </div>
+    </div>
+</section>
 
 <app-footer></app-footer>

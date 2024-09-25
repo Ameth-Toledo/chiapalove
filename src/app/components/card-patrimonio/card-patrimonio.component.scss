@@ -1,0 +1,47 @@
+.card-patrimonio {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 350px;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.card-patrimonio:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-patrimonio-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-accesorio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #F5A623; 
+    margin-bottom: 10px;
+}
+
+.card-descripcion {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
